@@ -1,8 +1,5 @@
 # Procesverslag
-**Auteur:** -Nino Schellingerhout-
-
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
+**Auteur:** Nino Schellingerhout
 
 
 ## Bronnenlijst
@@ -56,15 +53,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** -Rood-
+**Je startniveau:** Rood
 
-**Je focus:** -Responsive-
+**Je focus:** Responsive
 
-**Je opdracht:** -StoryLight, Project Slaap-
+**Je opdracht:** StoryLight ontwerp uit Project Slaap
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/StoryLight_screen1.jpg)
+(images/storylight_screen1.jpg)
+(images/storylight_screen2.jpg)
+(images/storylight_screen3.jpg)
+(images/storylight_screen4.jpg)
 
 **Breakdown-schets(en):**
 
