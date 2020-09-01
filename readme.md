@@ -60,11 +60,10 @@
 **Je opdracht:** StoryLight ontwerp uit Project Slaap
 
 **Screenshot(s):**
-
-(images/storylight_screen1.jpg)
-(images/storylight_screen2.jpg)
-(images/storylight_screen3.jpg)
-(images/storylight_screen4.jpg)
+![ontwerp screenshot](images/storylight_screen1.jpg)
+![ontwerp screenshot](images/storylight_screen2.jpg)
+![ontwerp screenshot](images/storylight_screen3.jpg)
+![ontwerp screenshot](images/storylight_screen4.jpg)
 
 **Breakdown-schets(en):**
 
