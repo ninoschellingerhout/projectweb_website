@@ -60,11 +60,8 @@
 **Je opdracht:** StoryLight ontwerp uit Project Slaap
 
 **Screenshot(s):**
-![ontwerp screenshot](images/storylight_screen1.jpg)
-![ontwerp screenshot](images/storylight_screen2.jpg)
-![ontwerp screenshot](images/storylight_screen3.jpg)
-![ontwerp screenshot](images/storylight_screen4.jpg)
+![ontwerp screenshot](images/StoryLight_Website.png)
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
+![breakdown-schets](images/breakdown-schets.jpg)
