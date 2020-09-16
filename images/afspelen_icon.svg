@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>afspelen icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-X" transform="translate(-26.000000, -4905.000000)" fill-rule="nonzero">
+            <g id="Group-40" transform="translate(24.000000, 4652.000000)">
+                <g id="Group-33" transform="translate(0.000000, 253.000000)">
+                    <g id="Group-32" transform="translate(2.000000, 0.000000)">
+                        <g id="afspelen-icon">
+                            <g id="flaticon1586115415-svg">
+                                <path d="M17,0 C7.65,0 0,7.65 0,17 C0,26.35 7.65,34 17,34 C26.35,34 34,26.35 34,17 C34,7.65 26.35,0 17,0 Z M13.6,24.65 L13.6,9.35 L23.8,17 L13.6,24.65 Z" id="Shape" fill="#F2E211"></path>
+                                <circle id="Oval" stroke="#5D26AB" stroke-width="2" cx="17" cy="17" r="13.9911504"></circle>
+                                <rect id="Rectangle" fill="#F2E211" x="27.380531" y="10.2300885" width="5.11504425" height="13.840708"></rect>
+                            </g>
+                            <path d="M17.0995575,29.9380531 L17.0995575,32.3451327" id="Line-5-Copy" stroke="#5D26AB" stroke-width="2" stroke-linecap="square"></path>
+                            <path d="M27.5309735,24.0199115 L30.1637168,24.0199115" id="Line-5-Copy-4" stroke="#5D26AB" stroke-width="2" stroke-linecap="square"></path>
+                            <path d="M27.8318584,10.4800885 L30.4646018,10.4800885" id="Line-5-Copy-5" stroke="#5D26AB" stroke-width="2" stroke-linecap="square"></path>
+                            <path d="M17.0995575,1.95575221 L17.0995575,4.36283186" id="Line-5-Copy-2" stroke="#5D26AB" stroke-width="2" stroke-linecap="square"></path>
+                            <path d="M2.18141593,17 L4.0619469,17" id="Line-5-Copy-3" stroke="#5D26AB" stroke-width="2" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
