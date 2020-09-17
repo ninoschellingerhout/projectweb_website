@@ -37,19 +37,32 @@
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Over het algemeen ging het beter dan verwacht. In het begin was het wel weer even wennen om alles correct op te bouwen maar toen ik eenmaal weer de smaak te pakken had ging het goed!
+
+**Wat erg goed ging:**
+- Het opbouwen van een correcte HTML structuur.
+- Het schrijven van CSS en het implementeren van de geleerde theorie.
+
+**Wat nog wat lastiger was:**
+- Het vooruit denken naar desktop, aangezien we nu vanuit mobiel moeten starten.
+- Mijn website overzetten naar GitHub ging nogal moeizaam, de afbeeldingen laden niet allemaal.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![voortgang screenshot deel1](images/voortgang_screen1.png)
+![voortgang screenshot deel2](images/voortgang_screen2.png)
+![voortgang screenshot deel3](images/voortgang_screen3.png)
+![voortgang screenshot deel4](images/voortgang_screen4.png)
+![voortgang screenshot deel5](images/voortgang_screen5.png)
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+Vragen:
+- Hoe kan ik correct mijn gebruikte afbeeldingen linken zodat ze in GitHub worden vertoond?
+
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
 
 
 
@@ -59,7 +72,7 @@
 
 **Je focus:** Responsive
 
-**Je opdracht:** StoryLight ontwerp uit Project Slaap
+**Je opdracht:** StoryLight ontwerp van Project Slaap
 
 **Screenshot(s):**
 ![ontwerp screenshot](images/StoryLight_Website.png)
