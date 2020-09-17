@@ -179,7 +179,7 @@ section.algemene-info li:before {
 /* PRODUCT VIDEO - SECTIE */
 
 section.product-video {
-  background-image: url("images/purple_background-element.svg");
+  background-image: url("./images/purple_background-element.svg");
   background-size: cover;
   background-position: right;
   padding: 5em 0em;
@@ -204,7 +204,7 @@ section.product-video {
 /* STORYLIGHT APP - SECTIE */
 
 section.storylight-app {
-  background-image: url("images/yellow_background-element.svg");
+  background-image: url("./images/yellow_background-element.svg");
   background-size: cover;
   background-position: center;
   right: 0;
@@ -287,19 +287,19 @@ article.stappenplan h3 {
 }
 
 h3.sensor-titel:before {
-  background-image: url("images/sensor_icon.svg");
+  background-image: url("./images/sensor_icon.svg");
 }
 
 h3.verhaaltje-titel:before {
-  background-image: url("images/verhaal_icon_geel.svg");
+  background-image: url("./images/verhaal_icon_geel.svg");
 }
 
 h3.afspelen-titel:before {
-  background-image: url("images/afspelen_icon.svg");
+  background-image: url("./images/afspelen_icon.svg");
 }
 
 h3.notificatie-titel:before {
-  background-image: url("images/notificaties_icon.svg");
+  background-image: url("./images/notificaties_icon.svg");
 }
 
 article.stappenplan p {
