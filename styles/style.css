@@ -81,7 +81,7 @@ img.footer-logo {
 /* HERO */
 
 section.hero {
-   background-image: url("/images/header-image-mobile.png");
+   background-image: url("./images/header-image-mobile.png");
    background-size: cover;
    display: flex;
    flex-direction: column;
@@ -144,15 +144,15 @@ h3:before {
 }
 
 h3.titel-verhaaltjes:before {
-  background-image: url("/images/verhaal_icon.svg");
+  background-image: url("./images/verhaal_icon.svg");
 }
 
 h3.titel-functies:before {
-  background-image: url("images/function_icon.svg");
+  background-image: url("./images/function_icon.svg");
 }
 
 h3.titel-app:before {
-  background-image: url("images/app_icon.svg");
+  background-image: url("./images/app_icon.svg");
 }
 
 
@@ -167,7 +167,7 @@ section.algemene-info li {
 section.algemene-info li:before {
   display: inline-block;
   content: ' ';
-  background-image: url("images/star_icon.svg");
+  background-image: url("./images/star_icon.svg");
   background-size: 16px 16px;
   height: 16px;
   width: 16px;
