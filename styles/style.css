@@ -81,7 +81,7 @@ img.footer-logo {
 /* HERO */
 
 section.hero {
-   background-image: url("./images/header-image-mobile.png");
+   background-image: url("../images/header-image-mobile.png");
    background-size: cover;
    display: flex;
    flex-direction: column;
