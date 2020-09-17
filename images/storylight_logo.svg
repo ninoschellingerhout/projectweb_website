@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="155px" height="137px" viewBox="0 0 155 137" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>story light logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M165.638446,113.13824 C165.071621,112.872395 164.417422,112.85787 163.838984,113.097678 C139.883299,122.928163 112.405557,111.630601 102.487778,87.8638434 C97.4574131,75.8090362 97.7587981,62.2153465 103.31866,50.3913031 C103.840969,49.2966822 103.368983,47.98966 102.264642,47.4719487 C101.697817,47.2061043 101.043618,47.1915788 100.46518,47.4313868 C74.1808123,58.1336768 61.6257762,87.9296193 72.4228252,113.982638 C83.2198743,140.035657 113.280403,152.480186 139.565047,141.778171 C151.552982,136.897049 161.24099,127.711717 166.69274,116.057594 C167.214772,114.962973 166.742787,113.655951 165.638446,113.13824 Z" id="path-1"></path>
+        <filter x="-4.1%" y="-4.1%" width="108.1%" height="108.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="6" dy="-8" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.894117647   0 0 0 0 0.850980392   0 0 0 0 0.329411765  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="139.352408" cy="85.7059383" r="4.14027652"></circle>
+        <filter x="-24.2%" y="-12.1%" width="148.3%" height="148.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="45.0481836%" y1="42.6245702%" x2="92.8965745%" y2="94.4510669%" id="linearGradient-5">
+            <stop stop-color="#FAF8D7" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F8F5CC" stop-opacity="0.263400653" offset="46.5971855%"></stop>
+            <stop stop-color="#FFFDE7" offset="100%"></stop>
+        </linearGradient>
+        <text id="text-6" font-family="FatFrank-Heavy, FatFrank" font-size="35.3196597" font-weight="600" letter-spacing="1.10702591" fill="#FFF252">
+            <tspan x="19.9264653" y="95.5248192">LIGH</tspan>
+            <tspan x="96.4066747" y="95.5248192">T</tspan>
+        </text>
+        <filter x="-1.0%" y="-2.3%" width="103.1%" height="109.3%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="1" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.961710989   0 0 0 0 0.65036732   0 0 0 0 0.138542295  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-X" transform="translate(-122.000000, -94.000000)">
+            <g id="Header" transform="translate(-316.000000, 58.000000)">
+                <g id="story-light-logo" transform="translate(426.000000, 27.000000)">
+                    <g id="moon" fill-rule="nonzero" transform="translate(117.727935, 96.438977) scale(-1, 1) translate(-117.727935, -96.438977) ">
+                        <use fill="#FFF252" xlink:href="#path-1"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="projector" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FFFDE7" xlink:href="#path-3"></use>
+                    </g>
+                    <polygon id="light" fill="url(#linearGradient-5)" fill-rule="nonzero" transform="translate(70.304076, 63.129697) rotate(-20.000000) translate(-70.304076, -63.129697) " points="100.867271 17.2807708 128.055827 108.915302 12.5523254 108.978623"></polygon>
+                    <text id="STORY" transform="translate(57.509433, 62.894133) rotate(-7.000000) translate(-57.509433, -62.894133) " font-family="LiveSource, Live Source - Demo" font-size="41.9618148" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="12.0094332" y="73.3941332">STORY</tspan>
+                    </text>
+                    <g id="LIGHT-Copy" fill="#FFF252" fill-opacity="1">
+                        <use filter="url(#filter-7)" xlink:href="#text-6"></use>
+                        <use xlink:href="#text-6"></use>
+                    </g>
+                    <polygon id="Star-Copy-13" fill="#FFFFFF" fill-rule="nonzero" points="154.105292 91.2231827 151.227225 92.7362721 151.776887 89.5314973 149.448481 87.2618632 152.666258 86.7942928 154.105292 83.8784924 155.544325 86.7942928 158.762102 87.2618632 156.433697 89.5314973 156.983359 92.7362721"></polygon>
+                    <polygon id="Star-Copy-15" fill="#DED128" fill-rule="nonzero" opacity="0.867801339" points="144.764911 74.8219528 141.344013 76.6402468 141.997346 72.7890383 139.229782 70.0615972 143.054462 69.4997134 144.764911 65.9957681 146.47536 69.4997134 150.30004 70.0615972 147.532475 72.7890383 148.185809 76.6402468"></polygon>
+                    <polygon id="Star-Copy-14" fill="#E3D52D" fill-rule="nonzero" points="143.487573 112.73752 141.645551 113.683033 141.997346 111.680404 140.507119 110.262135 142.566562 109.969955 143.487573 108.147904 144.408584 109.969955 146.468027 110.262135 144.9778 111.680404 145.329595 113.683033"></polygon>
+                    <polygon id="Star-Copy-18" fill="#FFEC04" fill-rule="nonzero" opacity="0.545758929" points="131.991536 124.008177 130.489936 124.731829 130.776716 123.19911 129.561896 122.113633 131.240736 121.890012 131.991536 120.495499 132.742336 121.890012 134.421176 122.113633 133.206356 123.19911 133.493136 124.731829"></polygon>
+                    <polygon id="Star-Copy-17" fill="#FFEC04" fill-rule="nonzero" opacity="0.681919643" points="142.636015 99.3929028 140.530847 100.483879 140.932898 98.173154 139.229782 96.5366894 141.583431 96.1995591 142.636015 94.097192 143.688599 96.1995591 146.042248 96.5366894 144.339132 98.173154 144.741183 100.483879"></polygon>
+                    <polygon id="Star-Copy-16" fill="#FFFFFF" fill-rule="nonzero" points="130.07553 112.529936 128.628227 113.257254 128.904637 111.71677 127.733745 110.625794 129.351879 110.40104 130.07553 108.999462 130.799182 110.40104 132.417315 110.625794 131.246423 111.71677 131.522833 113.257254"></polygon>
+                    <polygon id="Star-Copy-19" fill="#FFFFFF" fill-rule="nonzero" points="149.87426 103.464333 148.873194 103.990625 149.06438 102.875921 148.2545 102.086483 149.373727 101.92385 149.87426 100.909658 150.374794 101.92385 151.494021 102.086483 150.684141 102.875921 150.875327 103.990625"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

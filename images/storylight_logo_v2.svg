@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="159px" height="89px" viewBox="0 0 159 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="FatFrank-Heavy, FatFrank" font-size="53.0899166" font-weight="600" letter-spacing="1.66399984" fill="#FFF252">
+            <tspan x="15.2319998" y="87.9427194">LIGH</tspan>
+            <tspan x="130.191429" y="87.9427194">T</tspan>
+        </text>
+        <filter x="-1.7%" y="-3.9%" width="104.8%" height="115.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.961710989   0 0 0 0 0.65036732   0 0 0 0 0.138542295  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-X" transform="translate(-29.000000, -426.000000)">
+            <g id="Group-6" transform="translate(25.000000, 421.000000)">
+                <text id="STORY" transform="translate(71.914487, 40.165508) rotate(-7.000000) translate(-71.914487, -40.165508) " font-family="LiveSource, Live Source - Demo" font-size="63.073916" font-weight="normal" fill="#5D26AB">
+                    <tspan x="3.41448697" y="55.6655084">STORY</tspan>
+                </text>
+                <g id="LIGHT-Copy" fill="#FFF252" fill-opacity="1">
+                    <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                    <use xlink:href="#text-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

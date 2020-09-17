@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="87px" height="87px" viewBox="0 0 87 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>sensor design</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-X" transform="translate(-233.000000, -6717.000000)">
+            <g id="Group-18" transform="translate(233.000000, 6717.000000)">
+                <g id="sensor-design">
+                    <circle id="Oval" fill="#FFF67C" fill-rule="nonzero" cx="43.5" cy="43.5" r="43.5"></circle>
+                    <circle id="Oval" fill="#F2E211" fill-rule="nonzero" cx="43.5" cy="43.5" r="39.5961538"></circle>
+                    <rect id="Rectangle-path" fill="#466C88" fill-rule="nonzero" x="22.3206619" y="22.3206619" width="44.2003578" height="44.2003578"></rect>
+                    <rect id="Rectangle-path" fill="#303E48" fill-rule="nonzero" x="27.8457066" y="27.8457066" width="33.1502683" height="33.1502683"></rect>
+                    <polyline id="Shape" stroke="#FFFFFF" stroke-width="1.84799997" points="39.8166369 56.391771 33.3707513 56.391771 33.3707513 49.9458855"></polyline>
+                    <polyline id="Shape" stroke="#FFFFFF" stroke-width="1.84799997" points="33.3707513 37.9749553 33.3707513 31.5290698 39.8166369 31.5290698"></polyline>
+                    <polyline id="Shape" stroke="#FFFFFF" stroke-width="1.84799997" points="56.391771 49.9458855 56.391771 56.391771 49.9458855 56.391771"></polyline>
+                    <polyline id="Shape" stroke="#FFFFFF" stroke-width="1.84799997" points="49.9458855 31.5290698 56.391771 31.5290698 56.391771 37.9749553"></polyline>
+                    <path d="M25.0831843,22.3206619 L25.0831843,16.7956172" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M25.0831843,72.0460644 L25.0831843,66.5210197" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M30.608229,22.3206619 L30.608229,16.7956172" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M30.608229,72.0460644 L30.608229,66.5210197" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M36.1332737,22.3206619 L36.1332737,16.7956172" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M36.1332737,72.0460644 L36.1332737,66.5210197" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M41.6583184,22.3206619 L41.6583184,16.7956172" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M41.6583184,72.0460644 L41.6583184,66.5210197" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M47.1833631,22.3206619 L47.1833631,16.7956172" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M47.1833631,72.0460644 L47.1833631,66.5210197" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M52.7084079,22.3206619 L52.7084079,16.7956172" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M52.7084079,72.0460644 L52.7084079,66.5210197" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M58.2334526,22.3206619 L58.2334526,16.7956172" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M58.2334526,72.0460644 L58.2334526,66.5210197" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M63.7584973,22.3206619 L63.7584973,16.7956172" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M63.7584973,72.0460644 L63.7584973,66.5210197" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M16.7956172,63.7584973 L22.3206619,63.7584973" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M66.5210197,63.7584973 L72.0460644,63.7584973" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M16.7956172,58.2334526 L22.3206619,58.2334526" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M66.5210197,58.2334526 L72.0460644,58.2334526" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M16.7956172,52.7084079 L22.3206619,52.7084079" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M66.5210197,52.7084079 L72.0460644,52.7084079" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M16.7956172,47.1833631 L22.3206619,47.1833631" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M66.5210197,47.1833631 L72.0460644,47.1833631" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M16.7956172,41.6583184 L22.3206619,41.6583184" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M66.5210197,41.6583184 L72.0460644,41.6583184" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M16.7956172,36.1332737 L22.3206619,36.1332737" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M66.5210197,36.1332737 L72.0460644,36.1332737" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M16.7956172,30.608229 L22.3206619,30.608229" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M66.5210197,30.608229 L72.0460644,30.608229" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M16.7956172,25.0831843 L22.3206619,25.0831843" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                    <path d="M66.5210197,25.0831843 L72.0460644,25.0831843" id="Shape" stroke="#466C88" stroke-width="1.84799997"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

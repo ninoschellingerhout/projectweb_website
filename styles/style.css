@@ -1,5 +1,371 @@
 /* CSS Document */
+
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
 }
 
+*, html {
+  padding: 0em;
+  margin: 0em;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+/* NAVIGATIE */
+
+nav {
+  background-color: #251756;
+  text-align: center;
+  border-bottom: 1px solid #5D26AB;
+}
+
+ul.navigatie {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 100%;
+  padding: 2em 0em;
+}
+
+li {
+  font-size: 1.5em;
+}
+
+li a {
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 16px;
+  text-decoration: underline;
+  text-decoration-color: #FFF252;
+}
+
+li:hover {
+  color: #F2E211;
+}
+
+
+
+/* FOOTER */
+
+footer {
+  background-color: #34146D;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-size: 0.8em;
+  padding-top: 2em;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+
+footer span {
+  color: #F2E211;
+}
+
+img.footer-logo {
+  width: 30%;
+}
+
+
+
+/* HERO */
+
+section.hero {
+   background-image: url("../../basiswebsite/images/header-image-mobile.png");
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   padding: 1em 1em 5em 1em;
+}
+
+section.hero img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+section.hero blockquote {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #fff;
+  font-size: 1.5em;
+  margin: 0 auto;
+  padding-top: 2em;
+}
+
+
+
+/* ALGEMENE INFO - SECTIE */
+
+section.algemene-info {
+  padding: 1em 1em 2em 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+section.algemene-info p {
+  font-size: 1em;
+  color: #240659;
+  padding: 1em 0em;
+}
+
+section.algemene-info img {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+
+section.algemene-info ul {
+  padding: 1em 0em;
+}
+
+section.algemene-info h3 {
+  font-size: 1.5em;
+  color: #5D26AB;
+  display: flex;
+  padding: 0.5em 0em;
+}
+
+h3:before {
+  display: block;
+  content: ' ';
+  background-size: 28px 28px;
+  height: 28px;
+  width: 28px;
+  margin-right: 0.5em;
+}
+
+h3.titel-verhaaltjes:before {
+  background-image: url("../../basiswebsite/images/verhaal_icon.svg");
+}
+
+h3.titel-functies:before {
+  background-image: url("../../basiswebsite/images/function_icon.svg");
+}
+
+h3.titel-app:before {
+  background-image: url("../../basiswebsite/images/app_icon.svg");
+}
+
+
+section.algemene-info li {
+  list-style-type: none;
+  font-size: 1em;
+  font-weight: 600;
+  color: #240659;
+  padding-top: 0.8em;
+}
+
+section.algemene-info li:before {
+  display: inline-block;
+  content: ' ';
+  background-image: url("../../basiswebsite/images/star_icon.svg");
+  background-size: 16px 16px;
+  height: 16px;
+  width: 16px;
+  margin-right: 0.5em;
+}
+
+
+
+/* PRODUCT VIDEO - SECTIE */
+
+section.product-video {
+  background-image: url("../../basiswebsite/images/purple_background-element.svg");
+  background-size: cover;
+  background-position: right;
+  padding: 5em 0em;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* STORYLIGHT APP - SECTIE */
+
+section.storylight-app {
+  background-image: url("../../basiswebsite/images/yellow_background-element.svg");
+  background-size: cover;
+  background-position: center;
+  right: 0;
+  padding: 4em 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section.storylight-app h2 {
+  font-size: 2em;
+  font-weight: 800;
+  color: #5D26AB;
+  margin: 0 auto;
+  padding-top: 0.5em;
+}
+
+section.storylight-app p {
+  font-size: 1em;
+  color: #5D26AB;
+  padding: 2em 0em 3em 0em;
+}
+
+a.purple-button {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 800;
+  color: #fff;
+  background-color: #5D26AB;
+  padding: 0.6em 1em;
+  border-radius: 0.4em;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+section.storylight-app img.app-preview {
+  width: 100%;
+  padding-top: 3em;
+}
+
+
+
+/* PRODUCT GEBRUIKSAANWIJZING - SECTIE */
+
+section.product-gebruiksaanwijzing {
+  padding: 3em 1em;
+  background-color: #34146D;
+  border-radius: 28em / 9em;
+}
+
+section.product-gebruiksaanwijzing h2 {
+  font-size: 1.6em;
+  font-weight: 800;
+  color: #F2E211;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1.5em 0em;
+}
+
+section.product-gebruiksaanwijzing span {
+  color: #fff;
+}
+
+article.stappenplan {
+  padding-bottom: 3em;
+}
+
+article.stappenplan img {
+  width: 100%;
+}
+
+article.stappenplan h3 {
+  font-size: 1.5em;
+  color: #F2E211;
+  font-weight: 700;
+  display: flex;
+  padding: 0.5em 0em;
+}
+
+h3.sensor-titel:before {
+  background-image: url("../../basiswebsite/images/sensor_icon.svg");
+}
+
+h3.verhaaltje-titel:before {
+  background-image: url("../../basiswebsite/images/verhaal_icon_geel.svg");
+}
+
+h3.afspelen-titel:before {
+  background-image: url("../../basiswebsite/images/afspelen_icon.svg");
+}
+
+h3.notificatie-titel:before {
+  background-image: url("../../basiswebsite/images/notificaties_icon.svg");
+}
+
+article.stappenplan p {
+  font-size: 1em;
+  color: #fff;
+}
+
+
+
+/* SPECIFICATIES - SECTIE */
+
+section.specificaties {
+ padding: 2em 0em 3em 0em;
+}
+
+section.specificaties h2 {
+  font-size: 2em;
+  font-weight: 800;
+  color: #5D26AB;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1.5em 0em;
+}
+
+img.model {
+  width: 100%;
+  padding: 2em;
+}
+
+section.specificaties dl.specs-lijst {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em 2em;
+}
+
+dl.specs-lijst dt {
+  color: #240659;
+  width: 40%;
+  padding-bottom: 0.5em;
+  font-weight: 600;
+}
+
+dl.specs-lijst dd {
+  color: #240659;
+  width: 60%;
+}
+
+section.specificaties h3 {
+  font-size: 1.6em;
+  color: #240659;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+section.specificaties ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+section.specificaties li {
+  list-style-type: none;
+}
+
+section.specificaties li p {
+  text-align: center;
+  font-size: 0.8em;
+  color: #240659;
+}
