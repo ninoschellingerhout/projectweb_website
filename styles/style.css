@@ -144,7 +144,7 @@ h3:before {
 }
 
 h3.titel-verhaaltjes:before {
-  background-image: url("images/verhaal_icon.svg");
+  background-image: url("/images/verhaal_icon.svg");
 }
 
 h3.titel-functies:before {
