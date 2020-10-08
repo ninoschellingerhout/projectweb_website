@@ -9,6 +9,10 @@
   margin: 0em;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: 'Nunito Sans', sans-serif;
 }
@@ -32,7 +36,7 @@ ul.navigatie {
 }
 
 li {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 li a {
@@ -46,8 +50,6 @@ li a {
 li:hover {
   color: #F2E211;
 }
-
-
 
 /* FOOTER */
 
@@ -81,8 +83,9 @@ img.footer-logo {
 /* HERO */
 
 section.hero {
-   background-image: url("../images/header-image-mobile.png");
+   background-image: url("../images/header-image.png");
    background-size: cover;
+   background-position: bottom;
    display: flex;
    flex-direction: column;
    padding: 1em 1em 5em 1em;
@@ -112,7 +115,7 @@ section.algemene-info {
 }
 
 section.algemene-info p {
-  font-size: 1em;
+  font-size: 1rem;
   color: #240659;
   padding: 1em 0em;
 }
@@ -180,8 +183,9 @@ section.algemene-info li:before {
 
 section.product-video {
   background-image: url("../images/purple_background-element.svg");
-  background-size: cover;
-  background-position: right;
+  background-size: contain;
+  background-position: center 2em;
+  background-repeat: no-repeat;
   padding: 5em 0em;
 }
 
@@ -368,4 +372,219 @@ section.specificaties li p {
   text-align: center;
   font-size: 0.8em;
   color: #240659;
+}
+
+
+
+/* MEDIAQUERIES - RESPONSIVE */
+
+@media (min-width:768px) {
+
+/* Hero */
+  section.hero img {
+    width: 40%;
+  }
+
+  section.hero blockquote {
+    font-size: 2.4em;
+  }
+
+/* Algemene info */
+
+  section.algemene-info {
+    padding: 2em 2.5em 2em 2.5em;
+  }
+
+
+  section.algemene-info p {
+    font-size: 1.4em;
+  }
+
+  section.algemene-info img {
+    width: 60%;
+  }
+
+  section.algemene-info h3 {
+    font-size: 2.2em;
+  }
+
+  h3:before {
+    background-size: 45px 45px;
+    height: 45px;
+    width: 45px;
+  }
+
+  section.algemene-info li {
+    font-size: 1.4em;
+  }
+
+  section.algemene-info li:before {
+    background-size: 22px 22px;
+    height: 22px;
+    width: 22px;
+  }
+
+/* Product video */
+  section.product-video {
+    padding: 8em 0em;
+  }
+
+  /* Storylight app */
+
+  section.storylight-app h2 {
+    font-size: 2.4em;
+  }
+
+  section.storylight-app{
+    padding: 2em 3em 2em 3em;
+  }
+
+  section.storylight-app img {
+    padding-top: 3em;
+  }
+
+  section.storylight-app p {
+    font-size: 1.4em;
+  }
+
+/* Productgebruiksaanwijzing */
+  section.product-gebruiksaanwijzing {
+    padding: 3em 2em;
+  }
+
+  section.product-gebruiksaanwijzing h2 {
+    font-size: 3em;
+  }
+
+  article.stappenplan img {
+     width: 60%;
+     margin: 0 auto;
+  }
+
+  article.stappenplan {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  article.stappenplan h3 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2.4em;
+  }
+
+  article.stappenplan p {
+    font-size: 1.4em;
+  }
+
+/* Specificaties */
+
+  section.specificaties h2 {
+    font-size: 3em;
+  }
+
+  img.model {
+    padding: 2em 6em;
+  }
+
+  section.specificaties dl.specs-lijst {
+    font-size: 1.6em;
+  }
+
+  section.specificaties h3 {
+    font-size: 2.4em;
+  }
+
+  section.specificaties li img {
+    width: 7em;
+  }
+
+  footer {
+    padding: 4em;
+  }
+
+  img.footer-logo {
+    width: 50%;
+  }
+
+  footer p {
+    font-size: 1.6em;
+  }
+
+}
+
+@media (min-width:1200px) {
+
+  /* Algemene informatie */
+  section.algemene-info {
+    padding: 2em 4em 6em 4em;
+  }
+
+  section.hero img {
+    width: 20%;
+  }
+
+  section.hero blockquote {
+    padding-top: 1em;
+  }
+
+  section.algemene-info p {
+    font-size: 1.6em;
+  }
+
+  section.algemene-info img {
+    width: 40%;
+  }
+
+  .intro-image {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+  }
+
+  .three-columns {
+    display: flex;
+  }
+
+  section.algemene-info ul:nth-of-type(2) {
+    padding: 0em 4em;
+  }
+
+
+/* Productvideo */
+  section.product-video {
+    padding: 8em 12em;
+  }
+
+/* Storylight app */
+
+/* Gebruiksaanwijzing */
+
+  section.product-gebruiksaanwijzing {
+    padding: 3em 4em;
+  }
+
+  .four-columns {
+    display: flex;
+  }
+
+  article.stappenplan {
+    width: 50%;
+    text-align: left;
+    padding-right: 3em;
+  }
+
+    article:nth-of-type(4).stappenplan {
+      padding-right: 0em;
+    }
+
+  article.stappenplan img {
+    margin: 0;
+  }
+
+  article.stappenplan h3 {
+    text-align: left;
+    margin: 0;
+    font-size: 1.4em;
+  }
 }
