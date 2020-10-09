@@ -38,7 +38,7 @@ ul.navigatie {
 }
 
 li {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 li a {
@@ -520,6 +520,8 @@ section.specificaties li p {
   /* Algemene informatie */
   section.algemene-info {
     padding: 2em 4em 6em 4em;
+    position: relative;
+    height: 65em;
   }
 
   section.hero img {
@@ -532,6 +534,7 @@ section.specificaties li p {
 
   section.algemene-info p {
     font-size: 1.6em;
+    padding-top: 3em;
   }
 
   section.algemene-info img {
@@ -546,10 +549,21 @@ section.specificaties li p {
 
   .three-columns {
     display: flex;
+    position: absolute;
+    top: 25em;
+  }
+
+  section.algemene-info ul:nth-of-type(1) {
+    padding-top: 7em;
   }
 
   section.algemene-info ul:nth-of-type(2) {
     padding: 0em 4em;
+    padding-top: 12em;
+  }
+
+  section.algemene-info ul:nth-of-type(3) {
+    padding-top: 17em;
   }
 
 
