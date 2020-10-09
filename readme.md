@@ -23,15 +23,39 @@
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Net als vorige week ben ik bezig geweest met responsive design alleen nu voor desktop. Ik heb hiervoor het formaat 1200px genomen en ga hierna waarschijnlijk nog 1 formaat toevoegen. De stap van tablet naar desktop ging me toch iets moeilijker af dan de stap van mobiel naar tablet.
+Dit kwam vooral omdat ik nu veel meer gebruik moet maken van flexbox en positioning.
 
+**Wat erg goed ging:**
+- Mijn Hero heb ik erg goed responsive kunnen krijgen doormiddel van een .svg en background-position, hier was ik erg blij mee.
+- Door flexbox is het ook goed gelukt om van mijn 1 kolom secties 3 & 4 kolom secties te maken.
+
+**Wat nog wat lastiger was:**
+- Sommige achtergrond elementen heb ik als background-image opgebouwd, maar voor desktop werkt dit toch minder goed waardoor ik nu weer een stap terug moet nemen.
+
+![voortgang screenshot desktop deel1](images/desktop-screen1.png)
+![voortgang screenshot desktop deel2](images/desktop-screen2.png)
+![voortgang screenshot desktop deel2](images/desktop-screen3.png)
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Ik ben in deze periode meer gaan richten op het responsive maken van mijn website. Hierbij ben ik begonnen met de tablet vanaf 768px breed.
+Over het algmeen ging dit best wel goed, wat ook voornamelijk kwam door de codepen lessen.
 
+**Wat erg goed ging:**
+- Het verkleinen en vergroten van bepaalde elementen zodat ze goed te zien zijn op zowel mobiel als tablet.
+- Minimalistische CSS kunnen behouden, wat inhoud dat ik zo min mogelijk regels heb geschreven in mijn mediaqueries.
 
+**Wat nog wat lastiger was:**
+- Ik kwam erachter dat ik sommige secties verkeerd heb opgebouwd, er missen nu elementen om het volledig responsive te maken zoals in mijn ontwerp.
+- Het vergroten van de font size heb ik iets teveel moeten aanduiden in mijn CSS, dit komt omdat ik nu voor het eerst met EM werk inplaats van px.
+
+**Screenshot(s):**
+
+![voortgang screenshot tablet deel1](images/tablet-screen1.png)
+![voortgang screenshot tablet deel2](images/tablet-screen2.png)
+![voortgang screenshot tablet deel3](images/tablet-screen3.png)
 
 ## Voortgang 1 (week 3)
 
@@ -59,11 +83,6 @@ Over het algemeen ging het beter dan verwacht. In het begin was het wel weer eve
 
 Vragen:
 - Hoe kan ik correct mijn gebruikte afbeeldingen linken zodat ze in GitHub worden vertoond?
-
-
-### Verslag van meeting
-
-
 
 
 ## Intake (week 1)
