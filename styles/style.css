@@ -27,29 +27,97 @@ nav {
   background-color: #251756;
   text-align: center;
   border-bottom: 1px solid #5D26AB;
+  display: flex;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
 }
 
-ul.navigatie {
+nav button {
+  position:relative;
   display: flex;
-  justify-content: space-around;
-  list-style-type: none;
+  align-items: center;
+  width: 6em;
+  height: 2.5em;
+  font-size: 1em;
+  color: #F2E211;
+  background-color: transparent;
+  border: 1px solid #F2E211;
+  border-radius:.25em;
+  cursor: pointer;
+  z-index: 1;
+  transition: 0.5s ease;
+}
+
+nav button::before {
+  content: ' ';
+  display: block;
+  background-size: 21px 25px;
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 25px;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  background-image: url("../images/mobile-menu.svg");
+}
+
+nav button:focus {
+  outline: none;
+}
+
+nav ul {
+  margin:0;
+  padding:4em 0 0;
+  background: #F2E211;
+  list-style:none;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  padding: 2em 0em;
+  height: 100%;
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+ul.on-page-navigatie {
+  display: none;
+}
+
+nav.toonMenu ul {
+  transform: translateX(0);
+  transition: 0.5s ease;
+  opacity: 1;
+}
+
+nav.toonMenu button {
+  color: #fff;
+  background-color: #5D26AB;
+  border: none;
+  transition: 0.5s ease-out;
+  position: fixed;
+}
+
+nav.toonMenu button::before {
+  background-image: url("../images/mobile-menu-close.svg");
+  transition: 0.2s;
 }
 
 li {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 li a {
-  color: #fff;
+  color: #5D26AB;
   font-weight: bold;
-  padding: 8px 16px;
-  text-decoration: underline;
-  text-decoration-color: #FFF252;
+  text-decoration: none;
+  display: block;
+  padding: 1em 1em 1em 1em;
+  border-top: solid 1px #fff;
 }
 
-li:hover {
+
+li a:active {
   color: #F2E211;
 }
 
@@ -96,6 +164,7 @@ section.hero {
 section.hero img {
   width: 50%;
   margin: 0 auto;
+  padding-top: 6em;
 }
 
 section.hero blockquote {
@@ -107,7 +176,6 @@ section.hero blockquote {
 }
 
 
-
 /* ALGEMENE INFO - SECTIE */
 
 section.algemene-info {
@@ -116,10 +184,14 @@ section.algemene-info {
   flex-direction: column;
 }
 
+.intro-image {
+  text-align: center;
+}
+
 section.algemene-info p {
   font-size: 1rem;
   color: #240659;
-  padding: 1em 0em;
+  padding: 1em 0em 2em;
 }
 
 section.algemene-info img {
@@ -220,6 +292,10 @@ section.storylight-app {
   justify-content: center;
 }
 
+section.app-information {
+  text-align: center;
+}
+
 section.storylight-app h2 {
   font-size: 2em;
   font-weight: 800;
@@ -232,16 +308,18 @@ section.storylight-app p {
   font-size: 1em;
   color: #5D26AB;
   padding: 2em 0em 3em 0em;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 a.purple-button {
-  font-size: 1.3em;
+  font-size: 1.2em;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 800;
   color: #fff;
   background-color: #5D26AB;
-  padding: 0.6em 1em;
+  padding: 1em 2em;
   border-radius: 0.4em;
   margin: 0 auto;
   width: 100%;
@@ -253,14 +331,25 @@ section.storylight-app img.app-preview {
   padding-top: 3em;
 }
 
+section.storylight-app img.app-preview-desktop {
+  display: none;
+}
+
 
 
 /* PRODUCT GEBRUIKSAANWIJZING - SECTIE */
+div.background-rounding {
+  display: flex;
+}
+
+div.background-rounding img {
+  width: 100%;
+}
 
 section.product-gebruiksaanwijzing {
   padding: 3em 1em;
+  margin-top: -1px;
   background-color: #34146D;
-  border-radius: 28em / 9em;
 }
 
 section.product-gebruiksaanwijzing h2 {
@@ -377,10 +466,180 @@ section.specificaties li p {
 }
 
 
+/* APP PAGINA */
+
+
+/* Hero */
+
+section.hero-app {
+   background-image: url("../images/header-image-app.png");
+   background-size: cover;
+   background-position: bottom;
+   display: flex;
+   flex-direction: column;
+   padding: 18em 1em 15em 1em;
+   min-height: 25em;
+}
+
+section.hero-app h1{
+  font-size: 2.8em;
+  color: #fff;
+  text-align: center;
+}
+
+/* Over de App */
+
+section.over-app {
+   background-image: url("../images/space-element-two.svg");
+   background-size: cover;
+   background-position: left;
+   padding: 3em 2em;
+}
+
+section.over-app h2 {
+  font-size: 2em;
+  font-weight: 800;
+  color: #5D26AB;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+section.over-app p {
+  font-size: 1.2em;
+  color: #240659;
+  text-align: center;
+}
+
+
+/* De Functionaliteiten */
+
+section.app-functionaliteiten {
+  padding: 3em 2em;
+}
+
+section.app-functionaliteiten h2{
+  font-size: 2em;
+  font-weight: 800;
+  color: #5D26AB;
+  text-align: center;
+}
+
+section.app-functionaliteiten h3{
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #5D26AB;
+  padding: 0.5em 0em;
+}
+
+section.app-functionaliteiten p {
+  font-size: 1.2em;
+  color: #240659;
+}
+
+section.app-functionaliteiten article {
+  display: flex;
+  flex-direction: column;
+}
+
+section.app-functionaliteiten article img{
+  width: 100%;
+  padding-top: 3em;
+}
+
+
+/* Donwload de app */
+
+section.app-download {
+  padding: 2em 2em;
+  background-color: #F2E211;
+  display: flex;
+  flex-direction: column;
+}
+
+section.app-download section {
+  text-align: center;
+  padding: 1em 0em 2em 0em;
+}
+
+
+section.app-download img {
+  width: 20%;
+  margin: 0 auto;
+}
+
+section.app-download h3{
+  font-size: 2em;
+  font-weight: 800;
+  color: #5D26AB;
+  padding-bottom: 0.5em;
+  text-align: center;
+}
+
+section.app-download p {
+  font-size: 1.2em;
+  color: #240659;
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+section.app-download a.purple-button {
+  padding: 1em 1em;
+}
+
+
 
 /* MEDIAQUERIES - RESPONSIVE */
 
 @media (min-width:768px) {
+
+  /* NAVIGATIE - Geen hamburger menu meer*/
+
+  nav {
+    padding-left: 1em;
+  }
+
+  nav ul {
+    margin:0;
+    padding:0em 0 0;
+    background: #251756;
+    list-style:none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: auto;
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  ul.on-page-navigatie {
+    display: flex;
+  }
+
+  li a {
+    display: flex;
+    border-top: none;
+    color: #fff;
+  }
+
+  nav ul.on-page-navigatie li a {
+    color: #fff;
+    font-weight: 600;
+    border-top: none;
+    font-size: 0.8em;
+  }
+
+  li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #F2E211;
+  }
+
+  nav button {
+    display: none;
+  }
+
 
 /* Hero */
   section.hero img {
@@ -431,7 +690,14 @@ section.specificaties li p {
     padding: 8em 0em;
   }
 
-  /* Storylight app */
+/* Storylight app */
+
+  section.storylight-app {
+    background-image: url("../images/yellow_background-element-fullsize.svg");
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+  }
 
   section.storylight-app h2 {
     font-size: 2.4em;
@@ -449,9 +715,15 @@ section.specificaties li p {
     font-size: 1.4em;
   }
 
+  section.storylight-app img.app-preview {
+    max-width: 65%;
+    margin: 0 auto;
+    padding-top: 6em;
+  }
+
 /* Productgebruiksaanwijzing */
   section.product-gebruiksaanwijzing {
-    padding: 3em 2em;
+    padding: 1em 2em;
   }
 
   section.product-gebruiksaanwijzing h2 {
@@ -513,15 +785,83 @@ section.specificaties li p {
     font-size: 1.6em;
   }
 
+
+  /* APP PAGINA */
+
+
+  /* Over de App */
+
+  section.over-app {
+    padding: 6em 2em;
+  }
+
+  /* Functionaliteiten */
+
+  section.app-functionaliteiten article {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  section.app-functionaliteiten article:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
+
+  section.app-functionaliteiten article section {
+    padding: 0em 4em;
+  }
+
+  section.app-functionaliteiten article img {
+    width: 40%;
+  }
+
+  /* Download de App */
+
+  section.app-download {
+    flex-direction: row-reverse;
+    padding: 0em 3em 2em 3em;
+  }
+
+  section.app-download img {
+    width: 25%;
+    padding-right: 3em;
+  }
+
+  section.app-download section {
+    text-align: left;
+  }
+
+  section.app-download h3 {
+    text-align: left;
+  }
+
+  section.app-download p {
+    text-align: left;
+    padding-bottom: 3em;
+    max-width: 70%;
+  }
+
 }
 
 @media (min-width:1200px) {
+
+  nav {
+    padding-left: 3em;
+  }
+
+  nav ul {
+    width: 35%;
+  }
 
   /* Algemene informatie */
   section.algemene-info {
     padding: 2em 4em 6em 4em;
     position: relative;
-    height: 65em;
+    height: 70em;
+    align-items: center;
+  }
+
+  .intro-image {
+    text-align: left;
   }
 
   section.hero img {
@@ -533,8 +873,9 @@ section.specificaties li p {
   }
 
   section.algemene-info p {
-    font-size: 1.6em;
+    font-size: 1.4em;
     padding-top: 3em;
+    padding-right: 3em;
   }
 
   section.algemene-info img {
@@ -551,6 +892,7 @@ section.specificaties li p {
     display: flex;
     position: absolute;
     top: 25em;
+    width: calc(100% - 8em);
   }
 
   section.algemene-info ul:nth-of-type(1) {
@@ -574,10 +916,50 @@ section.specificaties li p {
 
 /* Storylight app */
 
+section.storylight-app {
+  background-image: none;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 0;
+  background-image: url("../images/space-element.svg");
+}
+
+section.app-information {
+  background-image: url("../images/yellow_background-element-fullsize.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+  padding-top: 1em;
+}
+
+section.storylight-app img.app-preview {
+  display: none;
+}
+
+section.storylight-app img.app-preview-desktop {
+  display: block;
+  width: 50%;
+}
+
+section.storylight-app h2 {
+  font-size: 2.2em;
+}
+
+section.storylight-app p {
+  font-size: 1.2em;
+  padding: 1em 0em 3em 1em;
+  max-width: 70%;
+}
+
+
 /* Gebruiksaanwijzing */
 
   section.product-gebruiksaanwijzing {
-    padding: 3em 4em;
+    padding: 1em 4em;
+  }
+
+  section.product-gebruiksaanwijzing h2 {
+    padding-top: 0;
   }
 
   .four-columns {
@@ -596,11 +978,82 @@ section.specificaties li p {
 
   article.stappenplan img {
     margin: 0;
+    width: 100%;
   }
 
   article.stappenplan h3 {
     text-align: left;
     margin: 0;
     font-size: 1.4em;
+    padding: 1.5em 0em;
   }
-}
+
+  article.stappenplan h3:before {
+    margin-top: -0.4em;
+  }
+
+/* Specificaties */
+
+  section.specificaties h2 {
+    padding: 0;
+  }
+
+  section.model-and-specs {
+    display: flex;
+    align-items: center;
+  }
+
+  img.model {
+    width: 50%;
+  }
+
+  section.inbegrepen {
+    display: flex;
+    justify-content: center;
+    padding: 3em 6em;
+    align-items: center;
+  }
+
+  section.inbegrepen li {
+    padding: 0em 4em;
+  }
+
+  section.specificaties li p {
+    font-size: 1em;
+  }
+
+
+/* footer */
+
+  img.footer-logo {
+    width: 10%;
+  }
+
+
+
+/* APP PAGINA */
+
+/* Over de App */
+
+  section.over-app p {
+    font-size: 1.4em;
+    max-width: 65%;
+    margin: 0 auto;
+  }
+
+  section.app-functionaliteiten p {
+    font-size: 1.4em;
+  }
+
+  section.app-download section {
+    padding-left: 3em;
+    padding-top: 0em;
+  }
+
+ section.app-download p {
+   font-size: 1.4em;
+ }
+
+  section.app-download img {
+    width: 20%;
+  }

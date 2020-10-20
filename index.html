@@ -14,12 +14,20 @@
 
 <body>
 
-<nav>
-	<ul class="navigatie">
-		<li> <a href="index.html">Product</a></li>
-		<li> <a href="app.html">App</a></li>
-	</ul>
-</nav>
+<header>
+	<nav>
+		<button aria-hidden="true">Menu</button>
+		<ul class="navigatie">
+			<li> <a href="index.html">De StoryLight</a></li>
+			<li> <a href="app.html">De App</a></li>
+		</ul>
+		<ul class="on-page-navigatie">
+			<li> <a href="#video">Productvideo</a></li>
+			<li> <a href="#werking">Infographic</a></li>
+			<li> <a href="#specs">Specificaties</a></li>
+		</ul>
+	</nav>
+</header>
 
 <main>
 	<section class="hero">
@@ -78,25 +86,32 @@
 
 	</section>
 
-	<section class="product-video">
+	<section id="video" class="product-video">
 		<div class="videoWrapper">
 	  	<iframe width="560" height="349" src="https://www.youtube.com/embed/j5MNVIy1sSM" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</section>
 
 	<section class="storylight-app">
-		<img class="app-icon" src="images/app_icon.svg" alt="App icon">
-		<h2>De StoryLight App</h2>
-		<p>De StoryLight is volledig bedienbaar via de app.
-			Zo kun je verschillende verhaaltjes kiezen en gemakkelijk tijden instellen.
-			<b>Download de app gratis in de app store!</b>
-		</p>
-		<a class="purple-button" href="app.html">Meer over de app</a>
+		<section class="app-information">
+			<img class="app-icon" src="images/app_icon.svg" alt="App icon">
+			<h2>De StoryLight App</h2>
+			<p>De StoryLight is volledig bedienbaar via de app.
+				Zo kun je verschillende verhaaltjes kiezen en gemakkelijk tijden instellen.
+				<b>Download de app gratis in de app store!</b>
+			</p>
+			<a class="purple-button" href="app.html">Meer over de app</a>
+		</section>
 		<img class="app-preview" src="images/app_preview.png" alt="App preview">
+		<img class="app-preview-desktop" src="images/app_preview_desktop.png" alt="App preview desktop">
 
 	</section>
 
-	<section class="product-gebruiksaanwijzing">
+	<div class="background-rounding">
+			<img src="images/gebruiksaanwijzing-section-top-part.svg" alt="achtergrond afronding">
+	</div>
+
+	<section id="werking" class="product-gebruiksaanwijzing">
 		<h2>Hoe de <span>StoryLight</span> werkt</h2>
 
 		<div class="four-columns">
@@ -137,36 +152,48 @@
 		</div>
 	</section>
 
-	<section class="specificaties">
+	<div class="background-rounding">
+			<img src="images/gebruiksaanwijzing-section-bottom-part.svg" alt="achtergrond afronding">
+	</div>
+
+	<section id="specs" class="specificaties">
 		<h2>De Specificaties</h2>
-		<img class="model" src="images/3d_model.png" alt="3D product model">
 
-		<dl class="specs-lijst">
-		  <dt>Materiaal:</dt>
-		  	<dd>Plastic</dd>
-		  <dt>Gewicht:</dt>
-		  	<dd>1,2 kg</dd>
-			<dt>Lichtbron:</dt>
-				<dd>Rood/Roze licht (LED)</dd>
-			<dt>Voltage:</dt>
-				<dd>12V</dd>
-			<dt>Voeding:</dt>
-				<dd>Oplader (Inbegrepen)</dd>
-			<dt>Bediening:</dt>
-				<dd>Draadloos (via de App)</dd>
-		</dl>
+		<section class="model-and-specs">
 
-		<h3>Inbegrepen:</h3>
-		<ul>
-			<li>
-				<img src="images/oplader.svg" alt="Oplader">
-				<p>Oplader</p>
-			</li>
-			<li>
-				<img src="images/sensor.svg" alt="Oplader">
-				<p>Sensor</p>
-			</li>
-		</ul>
+			<img class="model" src="images/3d_model.png" alt="3D product model">
+
+			<dl class="specs-lijst">
+			  <dt>Materiaal:</dt>
+			  	<dd>Plastic</dd>
+			  <dt>Gewicht:</dt>
+			  	<dd>1,2 kg</dd>
+				<dt>Lichtbron:</dt>
+					<dd>Rood/Roze licht (LED)</dd>
+				<dt>Voltage:</dt>
+					<dd>12V</dd>
+				<dt>Voeding:</dt>
+					<dd>Oplader (Inbegrepen)</dd>
+				<dt>Bediening:</dt>
+					<dd>Draadloos (via de App)</dd>
+			</dl>
+
+		</section>
+
+		<section class="inbegrepen">
+			<h3>Inbegrepen:</h3>
+			<ul>
+				<li>
+					<img src="images/oplader.svg" alt="Oplader">
+					<p>Oplader</p>
+				</li>
+				<li>
+					<img src="images/sensor.svg" alt="Oplader">
+					<p>Sensor</p>
+				</li>
+			</ul>
+		</section>
+
 
 	</section>
 </main>
