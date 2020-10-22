@@ -5,19 +5,39 @@
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. DLO/Codepen (Bovenaan staat een link naar mijn codepen)
+2. CSS tricks: https://css-tricks.com/
+3. Stackoverflow: https://stackoverflow.com/
+4. Developer.mozilla.org: https://developer.mozilla.org/
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Dit waren de 2 zwaarste weken van het blok. Ik was al erg ver voor de vakantie, alleen moest ik nog een volledige 2de pagina ontwerpen en bouwen.
+Mijn ontwerp van de website was namelijk een one page en daarom was er nog geen ontwerp van de tweede pagina. Daarnaast moest ik mijn website ook nog responsive maken voor desktop waar nog veel extra werk bij kwam kijken.
+
+Ten slotte moest ik ook nog een micro interactie verwerken met javascript. Mijn javascript skills zijn nog niet al te best, dus ik heb enorm veel zitten onderzoeken en testen. Ik heb als micro interactie gekozen voor een responsive menu (hamburger) gebaseerd op de opdrachten uit de lessen (JS oefening 2 & Mediaqueries oefening 3). Daarnaast wou ik eigenlijk ook nog een on-page navigatie die scrolt naar een bepaalde positie op de pagina. Aangezien dit niet in de lessen naar voren is gekomen heb ik dit zelf moeten uitzoeken. Ik heb hiervoor veel onderzoek gedaan naar verschillende methodes en ben uiteindelijk op een optie gekomen die voor mijn opdracht het beste werkte. Ik heb deze methode gevonden via Developer.mozilla.org.
+
+**Wat erg goed ging:**
+- De stap van Tablet naar Desktop heeft veel tijd gekost maar is wel goed gelukt, met dank aan flexbox!
+- Het verwerken van de button states is nu ook een stuk duidelijker voor me en daarom ook goed gelukt.
+- Het bouwen van de tweede pagina ging een stuk sneller dan de eerste, vooral omdat ik nu precies wist wat ik moest doen.
+
+**Wat nog wat lastiger was:**
+- Het verwerken van een microinteractie met javascript, het hamburger menu maken vond ik nog best wel lastig en heeft me veel tijd gekost om perfect te krijgen.
+- De on-page navigatie was ook nog een hele klus, terwijl het in eerste instantie best wel makkelijk leek.
+
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![mobiel menu dicht](images/voortgang-screen-1.png)
+![mobiel menu open](images/voortgang-screen-2.png)
+![nieuwe positie](images/voortgang-screen-3.png)
+![app pagina](images/voortgang-screen-4.png)
+
+Ontwerp product pagina:
+![app pagina](images/storylight-productpagina.png)
 
 
 
@@ -95,6 +115,7 @@ Vragen:
 
 **Screenshot(s):**
 ![ontwerp screenshot](images/StoryLight_Website.png)
+
 
 **Breakdown-schets(en):**
 
